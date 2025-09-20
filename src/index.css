@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'PlayfairDisplayBold';
+  src: url('../playfair-display.bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CMUSansSerifDemiCondensed';
+  src: url('../cmu.sans-serif-demi-condensed-demicondensed.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MontserratRegular';
+  src: url('../montserrat.regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Utility classes */
+.font-playfair {
+  font-family: 'PlayfairDisplayBold', serif;
+  font-weight: bold;
+}
+
+.font-cmu {
+  font-family: 'CMUSansSerifDemiCondensed', sans-serif;
+  font-weight: 600;
+}
+
+.font-montserrat {
+  font-family: 'MontserratRegular', sans-serif;
+  font-weight: normal;
+}
