@@ -457,7 +457,7 @@ export default function ClinicLanding() {
           </div>
           <div className="overflow-hidden rounded-2xl">
             <img
-              src="images\packages\9.jpg"
+              src="images\packages\9.png"
               alt="Treatment 3"
               className="w-full h-full object-cover hover:scale-105 transition"
             />
