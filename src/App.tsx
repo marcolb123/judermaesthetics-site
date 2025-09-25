@@ -291,7 +291,7 @@ export default function ClinicLanding() {
             <div className="flex items-center gap-2">
           {/* Make logo clickable to scroll to top */}
           <a href="#" onClick={e => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}>
-            <img src="images/logo/logo words.png" alt="JU Dermaesthetics Logo" className="h-9 cursor-pointer" />
+            <img src="images/logo/logo words.png" alt="JU Dermaesthetics" className="h-9 cursor-pointer" />
           </a>
         </div>
           </div>
